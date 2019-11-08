@@ -18,8 +18,8 @@ En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir d
 
 # 3. Le terminal
 ## 3.1. Qu'est-ce que le terminal ?
-Le terminal est un outil intimidant aux premiers abords, mais pas si compliqué au final. J'ai réalisé une vidéo pour l'expliquer : 
-https://www.youtube.com/embed/myz_6xrDwR4
+Le terminal est un outil intimidant aux premiers abords, mais pas si compliqué au final. J'ai réalisé une [vidéo](https://www.youtube.com/embed/myz_6xrDwR4) pour l'expliquer. 
+
 
 ## 3.2. Comment le lancer ?
 ### 3.2.1. Sur macOS
