@@ -177,14 +177,10 @@ La notion de géographie est fondamentale : le terminal n'arrivera pas à ouvrir
 - **cd permet de changer de dossier.**
 
 - **touch permet de créer un fichier.**
+ 
+- **CP permet de copier un fichier.** 
 
-```diff 
-- cp 
-```
-permet de copier un fichier.** ```
-
-- **mv
-permet de déplacer un fichier ou un dossier.**
+- **mv permet de déplacer un fichier ou un dossier.**
 
 - **rm permet de supprimer un fichier.**
 
