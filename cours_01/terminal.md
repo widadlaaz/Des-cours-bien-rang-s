@@ -27,10 +27,11 @@ CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
 ### 3.2.2. Sur Linux
 CTRL + ALT + T.
 
-ALERTE BONNE ASTUCE
+**ALERTE BONNE ASTUCE**
 Si tu utilises Linux, passe ton terminal en anglais. Ça va vraiment t'aider lorsqu'il te renverra des erreurs. En effet, comme l'anglais est la langue d'internet, la majorité des gens ayant eu ton problème vont le poster en anglais. Tu auras ainsi 100 fois plus de résultats sur Google qu'avec une erreur postée en français.
 
 ### 3.2.3. Sur Windows
+
 Sur Windows, le terminal sera géré de manière un chouilla différente. Pendant toute la formation, nous allons utiliser un terminal de type Shell Unix, car c'est le plus utilisé au monde et qu'il sera donc plus aisé pour toi de trouver des réponses en cas de problème. Le terminal Shell Unix est celui qui est installé de base pour Linux et macOS. Celui de Windows est l'invite de commandes, qui est de type DOS. Bon je sais, ça commence à faire beaucoup d'infos... Mais essaie au moins de retenir ces points :
 
 - macOS et Linux utilisent le même "noyau" de système d'exploitation : Unix ; tandis que Windows utilise DOS.
@@ -53,18 +54,22 @@ Maintenant nous allons voir quelques commandes basiques.
 
 ### 3.3.1. PWD
 pwd est l'acronyme de Print Working Directory, une commande affichant le dossier dans lequel tu es actuellement.
-**$ pwd**
+**> $ pwd**
 
 Pour moi, pwd me renvoie :
 **/Users/felix**
 
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te déplace dans le dossier felix qui est dans le dossier Users.
 
- ALERTE BONNE ASTUCE
-pwd est généralement la première commande que l'on tape quand on arrive dans le terminal de quelqu'un car c'est idéal pour s'y retrouver ✌️
+ **ALERTE BONNE ASTUCE**
+ 
+**pwd** est généralement la première commande que l'on tape quand on arrive dans le terminal de quelqu'un car c'est idéal pour s'y retrouver 
+
 3.3.2. LS
+
 ls est le diminutif de list. Cette fonction affiche les fichiers et dossiers situés dans mon dossier actuel.
-$ ls
+
+> $ ls
 Pour moi, ls me renvoie :
 Applications/   Dropbox/     Music/       Desktop/
 Pictures/     Documents/    Library/     Public/
