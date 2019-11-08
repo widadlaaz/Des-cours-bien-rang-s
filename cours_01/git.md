@@ -1,4 +1,4 @@
-#1. Introduction
+# 1. Introduction
 As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
 
 .
@@ -23,7 +23,7 @@ Avec un tel logiciel, fini le stress et les dossiers remplis de fichiers inutile
 
 Comprends-tu maintenant pourquoi le gestionnaire de version appelé Git est un super logiciel, et pourquoi c'est un indispensable dans l'univers du code ? Dans cette ressource, nous verrons comment l'installer et s'en servir. Ensuite, nous verrons de quelle manière l'utiliser pour mettre ses dossiers en ligne avec GitHub (un équivalent de DropBox) pour te permettre de partager ton code et collaborer facilement avec d'autres devs.
 
-#2. Contexte et historique
+# 2. Contexte et historique
 Tout comme il existe plusieurs explorateurs Internet (Firefox, Chrome, Safari, etc), il existe plein de logiciels de gestion de versions (SVN, BitKeeper, etc). Nous allons travailler avec Git pour ce cours car c'est de très très loin le plus connu et utilisé.
 
 Git a été créé en 2005 par Linus Torvald, qui a (entre autres) créé le système d'exploitation Linux.
@@ -36,15 +36,15 @@ Git est un logiciel de gestion de versions. C'est à dire, un logiciel permettan
 GitHub est un service en ligne qui utilise Git, et qui permet entre autres de :
 Mettre en ligne ses dossiers Git (dans ce qu'on appelle "un repository").
 Collaborer à plusieurs sur un même dossier Git.
-#3. Le cours
-##3.1. Git
+# 3. Le cours
+## 3.1. Git
 Nous allons maintenant voir :
 
 Comment installer Git sur ton ordinateur.
 Comment créer un dossier Git (repository).
 Comment faire une photographie (appelé "commit").
 Comment revenir à des versions précédentes.
-###3.1.1. Installation
+### 3.1.1. Installation
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique téléchargements, choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
 🚀 ALERTE BONNE ASTUCE
@@ -65,7 +65,7 @@ Le terminal devrait te renvoyer quelque chose comme : git version X.XX.X. S'il t
 
 Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les commandes $ git truc ou git machin pour lui faire exécuter truc ou machin. Voyons maintenant la commande permettant d'initialiser un dossier git.
 
-###3.1.2. Mise en place de ton dossier : git init et git status
+### 3.1.2. Mise en place de ton dossier : git init et git status
 Avant de commencer, il faut dire au logiciel Git : "ceci est un dossier de travail correspondant à un projet. Initialise Git dans ce dossier stp". En gros, tu vas initialiser un repository Git, ce qui te permettra de faire des photographies à l'instant T. Pour ceci, mets-toi dans un dossier de travail (avec la commande cd) et exécute la commande suivante :
 
 $ git init
@@ -96,16 +96,16 @@ No commits yet
 nothing to commit (create/copy files and use "git add" to track)
 Le logiciel git te dit actuellement qu'il n'y a rien dans ton dossier, et donc rien à photographier ("nothing to commit"). Voyons maintenant comment faire un commit, justement.
 
-###3.1.3. Faire un commit
+### 3.1.3. Faire un commit
 Un commit est une photographie à un instant T d'un projet. Pour faire court, tu vas prendre certains fichiers et les ajouter à la liste de ceux que tu veux photographier (cette liste peut aussi être vide). Ensuite, tu vas faire ta photographie en faisant git commit.
 
-3.1.3.1. Ajouter un fichier avec git add
+#### 3.1.3.1. Ajouter un fichier avec git add
 Pour savoir quels fichiers git va prendre en photo, il faut les ajouter avec la commande git add :
 
 $ git add nom_de_ton_fichier
 Tu peux voir avec git status que ton fichier est bien ajouté.
 
-####3.1.3.2. Faire un commit avec git commit
+#### 3.1.3.2. Faire un commit avec git commit
 Maintenant que tu as ajouté tes fichiers à la liste, tu as juste à les prendre en photo avec la commande git commit :
 
 $ git commit -m "I made a change this is a comment why I did it"
@@ -119,7 +119,7 @@ Et voilà comment marche le commit !
 Mais dis-donc Jamy, pourquoi écrire git commit -m "mon commentaire" et pas git commit tout simplement ?
 Excellente question. La commande git commit va ouvrir un fichier qui te demandera d'écrire un long message de commit avec Vim. Pas très pratique. Ainsi, comme l'option -l qui affiche les résultats de ls au format long, nous allons utiliser l'option -m qui permet d'écrire le message de commit directement dans la commande.
 
-3.1.3.3. Exemple avec un petit projet
+#### 3.1.3.3. Exemple avec un petit projet
 Comme il n'est pas aisé d'expliquer les commits, je te propose un petit pas à pas pour t'aider à comprendre la notion de git ☺ Nous allons prendre l'exemple d'un site de restaurant.
 
 Commence par créer un dossier restaurant_website, puis mets-toi dans le dossier avec ton terminal.
@@ -290,14 +290,14 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 C'est extrêmement puissant pour collaborer à plusieurs sur un même dossier : on sait qui a fait quoi, quand et pourquoi.
 La capacité à pouvoir facilement revenir en arrière (ce que nous allons étudier dans la partie suivante).
-###3.1.4. Revenir en arrière
+### 3.1.4. Revenir en arrière
 Comme nous l'avons vu, Git permet non seulement de faire des sauvegardes propres de ses projets, mais aussi de revenir en arrière facilement. Pour remonter le temps, ça se passe en deux étapes :
 
 Déterminer la sauvegarde où je veux revenir.
 Déterminer la raison du retour arrière :
 Est-ce à titre purement indicatif, juste pour regarder ce qui a été fait avant ?
 S'agit-il d'un retour en arrière définitif ?
-3.1.4.1. Regarder l'historique des versions
+#### 3.1.4.1. Regarder l'historique des versions
 La commande git log permet de connaitre les commits faits sur le projet. Par exemple pour ton projet de restaurant, git log ressemblerait à ceci :
 
 $ git log
@@ -328,7 +328,7 @@ Pourquoi ? (avec le message)
 Qu'est-ce qui a été commité ? (grâce au code bizarre)
 Le code 100d6f07dbf4cfb9103b3819e64432186750a1a2 est le SHA du commit. C'est son identifiant unique. C'est ce qui te servira pour le retour en arrière.
 
-####3.1.4.2. Revenir en arrière
+#### 3.1.4.2. Revenir en arrière
 Il y a deux façons de revenir en arrière :
 
 La première est à titre purement indicatif, et te servira seulement à observer un état précédent
@@ -356,7 +356,7 @@ Please commit your changes or stash them before you switch branches.
 Aborting
 Dans ce cas, 2 possibilités . faire une sauvegarde (== faire un commit), ou tout effacer pour revenir au commit d'avant.
 
-###3.7.2. Revenir en arrière définitivement
+### 3.7.2. Revenir en arrière définitivement
 Tu peux revenir en arrière définitivement avec la commande git reset qui s'utilise comme ceci :
 
 $ git reset --hard SHA
@@ -369,7 +369,7 @@ La commande git reset est aussi un bon moyen pour effacer son travail actuel et 
 $ git reset --hard
 Et hop ! Tu reviens à ton dernier commit. Très pratique pour tester des concepts à la volée, ou quand tu n'as pas envie de commit les changements que tu viens de faire.
 
-##3.2. GitHub
+## 3.2. GitHub
 Maintenant que tu es un champion du commit, nous allons voir comment mettre son code en ligne pour en faire profiter la terre entière, et pouvoir collaborer à plusieurs sur un projet.
 
 Grâce à git et GitHub, tu peux "push" ton code en ligne en quelques lignes de commandes à peine. Dans cette partie, nous verrons :
@@ -377,7 +377,7 @@ Grâce à git et GitHub, tu peux "push" ton code en ligne en quelques lignes de 
 Qu'est-ce que GitHub, et comment créer un repository.
 La notion de remote pour Git : comment lier ton repository local à un repository en ligne.
 les deux commandes maitresses : git pull et git push.
-###3.2.1. C'est quoi GitHub
+### 3.2.1. C'est quoi GitHub
 GitHub est une plateforme permettant deux choses très importantes dans l'univers du code :
 
 Pouvoir lier un repository Git local (sur ton ordinateur) à un repository que tu as créé en ligne sur la plateforme Github (un peu comme avec DropBox). Nous allons voir dans cette ressource comment le faire.
@@ -399,7 +399,7 @@ Si tu as bien tout fait, tu devrais avoir cet écran :
 
 Laisse-moi te traduire ces lignes bizarres en quelque chose de plus compréhensible : en gros, GitHub te dit que ton repository est prêt et qu'il est vide pour le moment. Il te donne même les commandes pour le lier à un repository local, à coup de git remote add origin git@github.com:username/le_nom_de_ton_projet.git. Nous allons voir ensemble la notion de remote dans la prochaine partie.
 
-###3.2.2. La notion de remote
+### 3.2.2. La notion de remote
 Qu'est-ce qu'un "remote repository" ? C'est une version à distance de ton repo Git, un peu comme une copie stockée ailleurs (souvent sur Internet). Tu peux facilement faire "local -> remote" ou de "remote -> local" avec Git.
 
 Avec git remote, tu peux facilement ajouter des remotes, voir la liste des remotes, enlever des remotes.
@@ -419,7 +419,7 @@ Continuons l'exemple de notre restaurant. Dans l'écran de ton repo vide (voir i
 git remote --v                                               
 origin  git@github.com:felhix/ton_super_nom.git (fetch)
 origin  git@github.com:felhix/ton_super_nom.git (push)
-###3.2.3. Git push
+### 3.2.3. Git push
 La commande git push va envoyer ton code stocké en local vers un remote de ton choix. Elle s'utilise en faisant : $ git push nom_du_remote nom_de_la_branche. Si tu veux push ta branche "master" vers la remote "origin", tu feras donc :
 
 $ git push origin master
@@ -443,11 +443,11 @@ Je viens d'initialiser un repo mais quand je push sur GitHub, certains dossiers 
 
 S’il n’y a aucun fichier dans un dossier, Git ne "push" pas le dossier. Ne t'étonne donc pas si un dossier vide sur ton ordi n'apparait pas dans GitHub : dès qu'un fichier (Ruby ou autre) y sera ajouté avec $ git add puis "commité" et pushed, cette fois le dossier apparaîtra bien, avec le fichier qu'il contient.
 
-###3.2.4. Git pull
+### 3.2.4. Git pull
 La commande git pull est le contraire de git push : elle remplace le code en local avec celui de la remote de ton choix. Elle s'utilise de la manière suivante : $ git pull nom_remote nom_branche. Ainsi, si tu veux pull ta branche "master" depuis la remote "origin" tu feras :
 
 $ git pull origin master
-##3.3. Les messages d'erreur
+## 3.3. Les messages d'erreur
 On ne va pas se leurrer, Git n'est pas facile à utiliser quand on débute... Avant de te précipiter et de maudire ton ordinateur, nous allons annoncer quelque chose : c'est normal d'avoir des erreurs, surtout quand on commence. C'est arrivé à TOUT le monde, et surtout à ceux qui sont à l'aise aujourd'hui ❤ Le secret, c'est de ne pas désespérer, et de résoudre tes soucis calmement, un à un. Comme tout développeur est passé par ce chemin, les réponses aux problèmes classiques pullulent sur Stack Overflow. Copie-colle ton message d'erreur, lis les réponses, essaie de les comprendre, et trouve la solution à ton problème.
 
 🎨 EXEMPLE ILLUSTRÉ
@@ -460,8 +460,8 @@ Oh mon dieu, Fatal !! En général, les erreurs sont en mode "error bug". Mais l
 
 Bref, je ne te le cache pas : les erreurs, tu en auras. La clé de succès de The Hacking Project est justement ta capacité à bien les analyser, et à faire les bonnes recherches Google qui résoudront ton problème.
 
-#4. Points importants à retenir
-##4.1. Les commandes pratiques
+# 4. Points importants à retenir
+## 4.1. Les commandes pratiques
 Voici un récap des commandes de base :
 
 $ git init : il faut TOUJOURS commencer par initialiser git avec cette commande. C'est elle qui transforme ton répertoire courant en repository git.
@@ -477,7 +477,7 @@ Date
 Message fourni lors du commit, qui doit être clair et précis pour te permettre de savoir ce que faisait au moment de cette sauvegarde.. C'est peut-être pénible, mais tu te remercieras plus tard.
 Pour quitter le log, il faut appuyer sur Q.
 
-##4.3. Se positionner sur un commit donné
+## 4.3. Se positionner sur un commit donné
 Imaginons que l'on veuille vérifier un truc sur un vieux commit. On va utiliser la commande $ git checkout, utilisée comme ceci :
 
 $ git checkout 45581cebdd2cae494f80f44010af9e4a86c9b8fa : dit à git de se positionner sur ce SHA précis. Attention à ne pas faire de modifications !
@@ -486,7 +486,7 @@ Si tu veux revenir en arrière définitivement, tu utiliseras $ git reset --hard
 
 $ git reset --hard 45581cebdd2cae494f80f44010af9e4a86c9b8fa : on dit à git de se positionner sur ce SHA précis.
 $ git reset --hard : efface tout pour revenir au dernier commit.
-#5. Pour aller plus loin
+# 5. Pour aller plus loin
 Le cours de OpenClassrooms sur Git est une très bonne ressource pour aller plus loin. Il explique notamment la notion de branches et de fusions.
 
 Voici également un cours sur Git de la Viking Code School. Il explique bien les bases de Git et fournit une bonne alternative au nôtre.
