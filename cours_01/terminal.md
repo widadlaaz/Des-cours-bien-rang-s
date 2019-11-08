@@ -54,10 +54,12 @@ Maintenant nous allons voir quelques commandes basiques.
 
 ### 3.3.1. PWD
 pwd est l'acronyme de Print Working Directory, une commande affichant le dossier dans lequel tu es actuellement.
-**> $ pwd**
+
+> **$ pwd**
 
 Pour moi, pwd me renvoie :
-**/Users/felix**
+
+> **/Users/felix**
 
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te déplace dans le dossier felix qui est dans le dossier Users.
 
@@ -69,8 +71,10 @@ C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te 
 
 ls est le diminutif de list. Cette fonction affiche les fichiers et dossiers situés dans mon dossier actuel.
 
-> $ ls
+> **$ ls**
+
 Pour moi, ls me renvoie :
+
 Applications/   Dropbox/     Music/       Desktop/
 Pictures/     Documents/    Library/     Public/
 Downloads/    Movies/
