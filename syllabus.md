@@ -14,7 +14,7 @@ Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir 
 ### Programme et calendrier du cours
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
 
-#### Séance 1
+#### __Séance 1__
 *Date : 25/09*
 
 Titre : Découverte de l’écran noir pour se sentir comme un hacker
@@ -23,7 +23,7 @@ Résumé : Vous allez découvrir le terminal, ainsi que Git, un superbe outil po
 
 Projet : Faire un projet à plusieurs et le mettre sur GitHub
 
-#### Séance 2
+#### __Séance 2__
 *Date : 09/10*
 
 Titre : HTML / CSS : Faire son premier site, et le mettre en ligne pour en faire profiter la terre
@@ -32,7 +32,7 @@ Résumé : Vous allez apprendre les bases de HTML / CSS, puis vous saurez commen
 
 Projet : Réaliser la page de présentation de votre association puis la mettre en ligne
 
-#### Séance 3
+#### __Séance 3__
 *Date : 23/10*
 
 Titre : JavaScript, ou comment ajouter des explosion à votre site
@@ -42,7 +42,7 @@ Résumé : Nous allons reprendre le projet de page de présentation de votre ass
 Projet : Une version dynamique du site de présentation de votre association
 
 
-#### Séance 4 
+#### __Séance 4__
 *Date : 13/11*
 
 Titre : Guide de survie lexical en territoire tech
@@ -55,7 +55,7 @@ Projet : aucun
 ### Objectif du cours
 Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique. 
 
-**À la fin, les étudiants seront capables de :** 
+__**À la fin, les étudiants seront capables de :**__ 
 
 - Concevoir une page web avec **HTML**
 - Lui mettre de la mise en page avec **CSS**
@@ -66,7 +66,7 @@ Le cours a pour but principal de faire découvrir le monde des sites webs et de 
 - Mettre en ligne son site internet
 - Découvrir le monde merveilleux du jargon de l’informatique
 
-**De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de :**
+**__De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de :__**
 
 - S’expliquer mutuellement des concepts compliqués
 - Travailler en équipe sur les projets d’entreprise
@@ -93,7 +93,7 @@ Le cours est conçu pour des élèves français ; mais le monde de l’informati
 ### Matériel
 **Pour le cours, vous aurez besoin d’un ordinateur.**
 
-**Voici les différents logiciels à installer :**
+**__Voici les différents logiciels à installer :__**
 
 - Un terminal
 - Déjà installé sur macOS et Linux
