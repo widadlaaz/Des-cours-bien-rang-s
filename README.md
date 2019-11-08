@@ -11,4 +11,15 @@ Le cours se décompose en deux parties introductives, la première étant une in
 
 ## Organisation du dossier 
 
-Le dossier est organisé en quatre sous dossiers cours_01, cours_02, cours_03, cours_04 et de deux fichiers README.md et syllabus.md. Le sous dossiers cours_01 est composé de deux fichiers git.md et terminal.md.
+Le dossier est organisé en quatre sous dossiers: cours_01, cours_02, cours_03, cours_04 et de deux fichiers README.md et syllabus.md. Le sous dossiers cours_01 est composé de deux fichiers git.md et terminal.md.
+
+## Contribution au cours
+
+Le cours est composé d'annexes, de conseils et de tutoriels mis en ligne par Mr. Gaudé via la plateforme *Trello*. Le reste du cours a été  fait en binôme à travers l'apprentissage en autonomie.
+Ont contribué à ce cours, LAAZOUZI Widad et SEFIANE Hajira.
+
+## Contexte dans lequel le cours a été pris
+
+Ce cours a été pris pour l'option transversale de l'Upec " Initiation à la création de site web grace au peer learning". Le concept est le suivant: apprendre en enseignant. 
+
+Ainsi, c'est par binôme que nous avons suivi étape par étape les ressources en ligne données par le professeur.
