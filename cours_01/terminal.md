@@ -168,27 +168,34 @@ Pour lancer le terminal...
 - Pour Windows il te faudra trouver un subterfuge : Cygwin est la solution parfaite pour les débutants.
 man permet de lancer le manuel des fonctions.
 
-**pwd affiche le dossier dans lequel tu es actuellement.**
+- **pwd affiche le dossier dans lequel tu es actuellement.**
 
-**ls est une commande qui affiche les fichiers et dossiers contenus dans mon dossier actuel.**
+- **ls est une commande qui affiche les fichiers et dossiers contenus dans mon dossier actuel.**
 
 La notion de géographie est fondamentale : le terminal n'arrivera pas à ouvrir les fichiers s'il ne se trouve pas dans le bon dossier.
 
-**cd permet de changer de dossier.**
+- **cd permet de changer de dossier.**
 
-**touch permet de créer un fichier.**
+- **touch permet de créer un fichier.**
 
-**cp permet de copier un fichier.**
+```diff 
+- cp 
+```
+permet de copier un fichier.** ```
 
-**mv permet de déplacer un fichier ou un dossier.**
+- **mv
+permet de déplacer un fichier ou un dossier.**
 
-**rm permet de supprimer un fichier.**
+- **rm permet de supprimer un fichier.**
 
-**rm -r permet de supprimer un dossier et son contenu.**
+- **rm -r permet de supprimer un dossier et son contenu.**
 
 # 5. Aller plus loin
 
-Voici un excellent cours express pour avoir quelques bases concernant l'utilisation du terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.
-Viking Code School ont aussi fait un cours sur le pimp de terminal pour y intégrer de couleurs de BGs.
-Michael Hartl a fait une célèbre introduction au terminal nommée Learn Enough Command Line to Be Dangerous. Cette ressource permet d'aller assez loin dans les détails de l'utilisation du terminal.
-Pour ceux qui veulent découvrir Vim, voici une marche à suivre pour être champion de Vim rapidement.
+Voici un excellent [cours express](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) pour avoir quelques bases concernant l'utilisation du terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.
+
+Viking Code School ont aussi fait un [cours sur le pimp de terminal](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course)  pour y intégrer de couleurs de BGs.
+
+Michael Hartl a fait une célèbre introduction au terminal nommée [*Learn Enough Command Line to Be Dangerous*](https://www.learnenough.com/command-line-tutorial). Cette ressource permet d'aller assez loin dans les détails de l'utilisation du terminal.
+
+Pour ceux qui veulent découvrir Vim, voici une [marche à suivre pour être champion de Vim rapidement](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85).
